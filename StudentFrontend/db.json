@@ -1,0 +1,26 @@
+{
+  "students": [
+    {
+      "firstname": "Mandala",
+      "lastname": "Pavan Kalyan",
+      "emailid": "pavankalyan891991@gmail.com",
+      "id": 1
+    },
+    {
+      "firstname": "Mandala",
+      "lastname": "Vijay Kumar",
+      "emailid": "vijay950295@gmail.com",
+      "id": 2
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

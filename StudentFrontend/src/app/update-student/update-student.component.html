@@ -1,0 +1,21 @@
+<div style="margin-left: 550px; margin-right: 550px;">
+    <h2 style="text-align: center;">Update Student</h2>
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label>First Name</label>
+            <input type="text" class="form-control"
+            [(ngModel)]="student.firstname" name="firstname" id="firstname">
+        </div> <br>
+        <div class="form-group">
+            <label>Last Name</label>
+            <input type="text" class="form-control" 
+            [(ngModel)]="student.lastname" name="lastname" id="lastname">
+        </div><br>
+        <div class="form-group">
+            <label>Email Id</label>
+            <input type="text" class="form-control"
+            [(ngModel)]="student.emailid" name="emailid" id="emailid">
+        </div> <br>
+        <button type="submit" class="btn btn-success">Update</button>
+    </form>
+</div>

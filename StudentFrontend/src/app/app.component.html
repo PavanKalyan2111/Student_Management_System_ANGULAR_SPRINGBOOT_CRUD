@@ -1,0 +1,32 @@
+<head> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand"style="color: white;">Student Management</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a routerLink="studentslist" routerLinkActive="active" class="nav-link">Students List</a></li>
+      <li><a routerLink="addstudent" routerLinkActive="active">Add Student</a></li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+<div style="text-align: center;">
+  <h1 style="color: Red;">{{title}}</h1>
+</div>
+<div>
+  <router-outlet></router-outlet>
+</div>
+<footer class="footer">
+    <div class="container">
+        <span>All Rights Reserved 2022 @pavankalyan</span>
+    </div>
+</footer>
